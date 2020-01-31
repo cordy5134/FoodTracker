@@ -14,6 +14,7 @@
 		AF53551923DF3E4C009132E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF53551823DF3E4C009132E6 /* Assets.xcassets */; };
 		AF53551C23DF3E4C009132E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF53551A23DF3E4C009132E6 /* LaunchScreen.storyboard */; };
 		AF53552723DF3E4C009132E6 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53552623DF3E4C009132E6 /* FoodTrackerTests.swift */; };
+		AF90E5C123E205D200758D48 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF90E5C023E205D200758D48 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		AF53552223DF3E4C009132E6 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF53552623DF3E4C009132E6 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		AF53552823DF3E4C009132E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF90E5C023E205D200758D48 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				AF53551823DF3E4C009132E6 /* Assets.xcassets */,
 				AF53551A23DF3E4C009132E6 /* LaunchScreen.storyboard */,
 				AF53551D23DF3E4C009132E6 /* Info.plist */,
+				AF90E5C023E205D200758D48 /* RatingControl.swift */,
 			);
 			path = FoodTracker;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF90E5C123E205D200758D48 /* RatingControl.swift in Sources */,
 				AF53551423DF3E4B009132E6 /* ViewController.swift in Sources */,
 				AF53551023DF3E4B009132E6 /* AppDelegate.swift in Sources */,
 				AF53551223DF3E4B009132E6 /* SceneDelegate.swift in Sources */,
